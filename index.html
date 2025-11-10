@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GourmetBites - Restaurant</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">GourmetBites</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#reservations">Reservations</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="hero-section">
+        <div class="container text-center">
+            <h1>Welcome to GourmetBites</h1>
+            <p class="lead">Experience the finest dining in town.</p>
+            <a href="#reservations" class="btn btn-primary btn-lg">Book a Table</a>
+        </div>
+    </header>
+
+    <section id="about" class="py-5" data-aos="fade-up">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2>Our Story</h2>
+                    <p>Started in 2020, GourmetBites was born from a simple dream: to bring world-class dining to our beloved city. Our founder and Head Chef, Chef Julian, travelled the world, gathering flavors and techniques to create a menu unlike any other.</p>
+                    <p>We believe food is more than just sustenance; it's an experience. Every dish is crafted with passion, precision, and a deep respect for the ingredients. We invite you to join our family and taste the story in every bite.</p>
+                </div>
+                <div class="col-md-5">
+                    <img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c" alt="Our Chef" class="img-fluid rounded-circle" data-aos="zoom-in">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="py-5 bg-light" data-aos="fade-up">
+        <div class="container">
+            <h2 class="text-center mb-4">Our Menu</h2>
+            <div class="swiper menu-swiper">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="card h-100" data-aos="zoom-in" data-aos-delay="100">
+                            <img src="image/pic1.jpg" class="card-img-top" alt="Grilled Salmon">
+                            <div class="card-body">
+                                <h5 class="card-title">Grilled Salmon</h5>
+                                <p class="card-text">Perfectly grilled salmon served with seasonal vegetables.</p>
+                                <p class="card-text"><strong>$22.00</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide">
+                        <div class="card h-100" data-aos="zoom-in" data-aos-delay="200">
+                            <img src="image/pic2.jpg" class="card-img-top" alt="Ribeye Steak">
+                            <div class="card-body">
+                                <h5 class="card-title">Ribeye Steak</h5>
+                                <p class="card-text">A juicy 12oz ribeye steak cooked to your preference.</p>
+                                <p class="card-text"><strong>$28.00</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide">
+                        <div class="card h-100" data-aos="zoom-in" data-aos-delay="300">
+                            <img src="image/pic3.jpg" class="card-img-top" alt="Pasta Carbonara">
+                            <div class="card-body">
+                                <h5 class="card-title">Pasta Carbonara</h5>
+                                <p class="card-text">Classic carbonara with pancetta and a rich egg sauce.</p>
+                                <p class="card-text"><strong>$18.00</strong></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card h-100" data-aos="zoom-in" data-aos-delay="400">
+                            <img src="image/pic4.jpg" class="card-img-top" alt="Caesar Salad">
+                            <div class="card-body">
+                                <h5 class="card-title">Caesar Salad</h5>
+                                <p class="card-text">Crisp romaine lettuce, parmesan cheese, and croutons.</p>
+                                <p class="card-text"><strong>$14.00</strong></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card h-100" data-aos="zoom-in" data-aos-delay="500">
+                            <img src="image/pic5.jpg" class="card-img-top" alt="Tiramisu">
+                            <div class="card-body">
+                                <h5 class="card-title">Tiramisu</h5>
+                                <p class="card-text">A classic Italian dessert with coffee, ladyfingers, and mascarpone.</p>
+                                <p class="card-text"><strong>$10.00</strong></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card h-100" data-aos="zoom-in" data-aos-delay="600">
+                            <img src="image/pic7.jpg" class="card-img-top" alt="Artisan Coffee">
+                            <div class="card-body">
+                                <h5 class="card-title">Artisan Coffee</h5>
+                                <p class="card-text">Freshly brewed single-origin coffee with rich aroma.</p>
+                                <p class="card-text"><strong>$5.00</strong></p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div> 
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div> 
+        </div>
+    </section>
+
+    <section id="gallery" class="py-5" data-aos="fade-up">
+        <div class="container">
+            <h2 class="text-center mb-4">Our Gallery</h2>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 mb-4" data-aos="zoom-in" data-aos-delay="100">
+                    <a href="image/img2.jpg" data-lightbox="restaurant-gallery" data-title="Restaurant Interior">
+                        <img src="image/img2.jpg" alt="Restaurant Interior" class="img-fluid gallery-item">
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4" data-aos="zoom-in" data-aos-delay="200">
+                    <a href="image/img3.jpg" data-lightbox="restaurant-gallery" data-title="Food Plating">
+                        <img src="image/img3.jpg" alt="Food Plating" class="img-fluid gallery-item">
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4" data-aos="zoom-in" data-aos-delay="300">
+                    <a href="image/img4.jpg" data-lightbox="restaurant-gallery" data-title="Close-up of food">
+                        <img src="image/img4.jpg" alt="Close-up of food" class="img-fluid gallery-item">
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4" data-aos="zoom-in" data-aos-delay="400">
+                    <a href="image/img5.jpg" data-lightbox="restaurant-gallery" data-title="Restaurant Ambiance">
+                        <img src="image/img5.jpg" alt="Restaurant Ambiance" class="img-fluid gallery-item">
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4" data-aos="zoom-in" data-aos-delay="500">
+                    <a href="image/img6.jpg" data-lightbox="restaurant-gallery" data-title="Dessert">
+                        <img src="image/img6.jpg" alt="Dessert" class="img-fluid gallery-item">
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4" data-aos="zoom-in" data-aos-delay="600">
+                    <a href="image/img7.jpg" data-lightbox="restaurant-gallery" data-title="Dining Table">
+                        <img src="image/img7.jpg" alt="Dining Table" class="img-fluid gallery-item">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-5 bg-light" data-aos="fade-up">
+        <div class="container">
+            <h2 class="text-center mb-4">Visit Us</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4 contact-info">
+                    <h3>GourmetBites</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Food Street, Downtown, Chennai, TN 600001</p>
+                    <p><i class="fas fa-phone-alt"></i> +91 98765 43210</p>
+                    <p><i class="fas fa-envelope"></i> info@gourmetbites.com</p>
+                    <h3 class="mt-4">Opening Hours</h3>
+                    <p>Monday - Friday: 11:00 AM - 10:00 PM</p>
+                    <p>Saturday - Sunday: 10:00 AM - 11:00 PM</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.666326884606!2d80.2807482759325!3d13.05697771344485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5268060372186b%3A0x8aa7c6f01487813a!2sMarina%20Beach!5e0!3m2!1sen!2sin!4v1731165842101!5m2!1sen!2sin" 
+                                width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="reservations" class="py-5" data-aos="fade-up" data-aos-delay="200">
+        <div class="container">
+            <h2 class="text-center mb-4">Book Your Table</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <form id="reservation-form">
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="date" class="form-label">Date</label>
+                                <input type="date" class="form-control" id="date" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="time" class="form-label">Time</label>
+                                <input type="time" class="form-control" id="time" required>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="guests" class="form-label">Number of Guests</label>
+                            <input type="number" class="form-control" id="guests" min="1" required>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary btn-lg">Submit Reservation</button>
+                        </div>
+                    </form>
+                    <div id="reservation-success" style="display: none;">
+                        <h3>Thank You!</h3>
+                        <p>Your reservation has been successfully submitted. We look forward to seeing you!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="py-4 bg-dark text-white">
+        <div class="container text-center">
+            <p>© 2025 GourmetBites. All Rights Reserved.</p>
+            <p>Follow us on Social Media!</p>
+            <div class="social-icons">
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+<!-- JS Libraries (Correct order) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- jQuery for Lightbox -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox-plus-jquery.min.js"></script>
+
+<!-- Your Custom JS -->
+<script src="script.js"></script>
+
+
+
+</body>
+</html>
